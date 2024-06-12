@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dunkin Donuts Landing Page Concept</title>
+    <link rel="icon" type="image/x-icon" href="/media/favicon.jpg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <section>
+        <div class="circle"></div>
+        <header>
+            <a href="#"><img src="media/logo.png" alt="Dunkin Donuts Logo" class="logo"></a>
+            <div class="toggle" onclick="toggleMenu();"></div>
+            <ul class="navigation">
+                <li><a href="#">Home</a></li>
+                <li><a href="#" id="M">Menu</a></li>
+                <li><a href="#">What's New</a></li>
+                <li><a href="#" id="C">Contact</a></li>
+            </ul>
+        </header>
+        <div class="content">
+            <div class="textBox">
+                <h2>It's not just Coffee<br>It's <span>Dunkin</span></h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam tempore rerum ex itaque dolor magnam accusamus cum labore, asperiores quas minima molestias beatae commodi, assumenda, natus quibusdam provident tempora blanditiis.</p>
+                <a href="#">Learn More</a>
+            </div>
+            <div class="imgBox">
+                <img src="media/img1.png" alt="dunkin iced coffee" class="dunkin">
+            </div>
+        </div>
+        <ul class="thumb">
+            <li><img src="media/thumb1.png" alt="dunkin iced coffee" onclick="imgSlider('media/img1.png');changeCircleColor('#f5821f')"></li>
+            <li><img src="media/thumb2.png" alt="dunkin iced coffee" onclick="imgSlider('media/img2.png');changeCircleColor('#683817')"></li>
+            <li><img src="media/thumb3.png" alt="two donuts" onclick="imgSlider('media/img3.png');changeCircleColor('#e11383')"></li>
+        </ul>
+        <ul class="sci">
+            <li><a href="#"><img src="media/facebook50.svg" alt="facebook icon"></a></li>
+            <li><a href="#"><img src="media/instagram50.svg" alt="instagram icon"></a></li>
+            <li><a href="#"><img src="media/twitter60.svg" alt="twitter icon"></a></li>
+        </ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
